@@ -1,0 +1,18 @@
+{% extends 'public/base.html' %}
+
+{% block additional_head %} 
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'public/css/styles.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-lg-5 mt-5">
+                <h2 class="header-text">CHAT NOOK BUILT DIFFERENT</h4>
+                <p class="opening-text mt-3 mb-3">Provide smooth chat services and endless connections...</p>
+                <a href="#" class="btn btn-outline-dark">Join us</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
